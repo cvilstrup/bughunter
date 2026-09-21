@@ -1,4 +1,4 @@
-/* Kan du forbedre klassen, så den returnerer fulde navne? */
+/* Kan du forbedre klassen, så den returnerer fulde navne? (klaret) */
 
 void main() {
     Person person1 = new Person("Alice", "Smith");
