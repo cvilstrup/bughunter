@@ -1,4 +1,4 @@
-/* Prøv at simplificere isWeekend-metoden */
+/* Prøv at simplificere isWeekend-metoden (ikke klaret)*/
 
 void main() {
     String dayOfWeek = "Mandag";
