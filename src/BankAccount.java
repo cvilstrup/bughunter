@@ -1,4 +1,4 @@
-/* Skriv en klasse til at håndtere bankkonti */
+/* Skriv en klasse til at håndtere bankkonti (klaret)*/
 
 double balance = 1000;
 
