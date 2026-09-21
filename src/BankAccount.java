@@ -15,3 +15,13 @@ void withdraw(double amount) {
 void deposit(double amount) {
     balance = balance + amount;
 }
+
+public class BankAccount {
+    final int accountNumber;
+    double balance;
+
+    public BankAccount(int accountNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = 0.0;
+    }
+}
