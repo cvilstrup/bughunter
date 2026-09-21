@@ -1,4 +1,4 @@
-/* Find fejlen i koden */
+/* Find fejlen i koden (klaret) */
 
 void main() {
     int[] numbers = {4, 8, 15, 16, 23, 42};
@@ -6,9 +6,9 @@ void main() {
 
     for (int number : numbers) {
         if (number != target) {
-            IO.println("Found");
-        } else {
             IO.println("Not found");
+        } else {
+            IO.println("Found");
         }
     }
 }
