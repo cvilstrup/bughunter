@@ -1,4 +1,4 @@
-/* Find fejlen i isOdd-metoden */
+/* Find fejlen i isOdd-metoden (klaret) */
 
 void main() {
     IO.println("Tallet 3 er ulige: " + isOdd(3));
@@ -6,5 +6,5 @@ void main() {
 }
 
 boolean isOdd(int number) {
-    return number / 2 == 1;
+    return number / 2 == 2;
 }
