@@ -1,18 +1,24 @@
 /* Find ud hvordan vi håndterer tomme lister */
 
 void main() {
-    IO.println("Gennemsnittet af 1, 2, 3, 4, 5 er: " 
+    IO.println("Gennemsnittet af 1, 2, 3, 4, 5 er: "
         + calculateAverage(new int[]{1, 2, 3, 4, 5}));
-    IO.println("Gennemsnittet af en tom liste er: " 
+    IO.println("Gennemsnittet af en tom liste er: "
         + calculateAverage(new int[]{}));
 }
 
 double calculateAverage(int[] numbers) {
-    int sum = 0;
+    if (numbers == null) {
+        return Double.parseDouble(("Ikke gyldig"));
+    } else {
 
-    for (int number : numbers) {
-        sum += number;
+        int sum = 0;
+
+        for (int number : numbers) {
+            sum += number;
+        }
+
+        return sum / numbers.length;
     }
-
-    return  sum / numbers.length;
 }
+

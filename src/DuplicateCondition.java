@@ -1,4 +1,4 @@
-/* Refaktorer koden for at fjerne duplikerede if-betingelser */
+/* Refaktorer koden for at fjerne duplikerede if-betingelser (klaret) */
 
 void main() {
     int age = 25;
